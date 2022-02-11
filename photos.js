@@ -104,12 +104,12 @@ function previewFive() { //switches to 5 images layout
       numberButton.attachEvent("onclick", previewThree);
    }
 }
-   /* switch to 3-image layout */
+  /* switch to 3-image layout */
 function previewThree() {
    var articleE1 = document.getElementsByTagName("article") [0];
    var numberButton = document.querySelector("#fiveButton p");
-   articleE1.removeChild(document.getElementById("fig1"));
-   articleE1.removeChild(document.getElementById("fig5"));
+   articleE1.removeChild (document.getElementById("fig1"));
+   articleE1.removeChild (document.getElementById("fig5"));
    figureCount = 3;
    numberButton.innerHTML = "Show more images";
    if (numberButton.addEventListener) {
