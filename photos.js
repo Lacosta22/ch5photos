@@ -84,7 +84,7 @@ function previewFive() { //switches to 5 images layout
       articleE1.insertBefore(lastFigure, document.getElementById("rightarrow"));
    // clone figure element for fifth image and edit to be first image
    var firstFigure = lastFigure.cloneNode(true);
-      firstFigure.id = "figil";
+      firstFigure.id = "figl";
       firstFigure.style.right = "";
       firstFigure.style.left = "45px";
    // articleE1.appendChild(firstFigure);
